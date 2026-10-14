@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/075924638a.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar__container">
+				<a href="/" id="navbar__logo">
+					<i class="fa-solid fa-gamepad"></i>Homepage
+				</a>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="/" class="navbar__links">Home</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/about.html" class="navbar__links" id="active">About</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/projects.html" class="navbar__links">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main class="about__container">
+			<!-- Header -->
+			<div class="about__header">
+				<h1>About Me</h1>
+				<p class="subtitle">Programmer, Gamer, and Builder</p>
+			</div>
+
+			<!-- Bio -->
+			<section class="about__grid">
+				<div class="about__text">
+					<h2>Hi, I'm Jayesh Meka</h2>
+					<p>
+						I've always wondered how people design things like robots, and how
+						they program complex actions too.
+					</p>
+					<p>
+						I started by just being curious about programming, and learning from
+						online tutorials. Over time, that expanded into building robots,
+						programming algorithms, and developing tools which have real life
+						uses.
+					</p>
+				</div>
+
+				<div class="about__sidebar">
+					<h3>Known Languages</h3>
+					<ul class="skills__list">
+						<li>HTML & CSS</li>
+						<li>Python</li>
+						<li>C++ / C#</li>
+						<li>Java</li>
+						<li>JavaScript</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="interests__section">
+				<h2>Other Interests</h2>
+				<p>
+					When I'm not debugging code or working on hardware, I'm usually
+					playing video games like <em>Hollow Knight</em> or having fun with
+					friends in <em>Minecraft</em>.
+				</p>
+			</section>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
